@@ -6,6 +6,10 @@ package org.wyekings
  */
 class Solution {
 
+    /**
+     * time complexity: O(n2)
+     * space complexity: O(1)
+     */
     fun twoSum1(nums: IntArray, target: Int): IntArray {
         for (i in nums.indices) {
             for (j in (i + 1) until nums.size) {
@@ -17,6 +21,10 @@ class Solution {
         return intArrayOf()
     }
 
+    /**
+     * time complexity: O(n)
+     * space complexity: O(n)
+     */
     fun twoSum2(nums: IntArray, target: Int): IntArray {
         val map = hashMapOf<Int,Int>()
         nums.forEachIndexed { index, num ->
