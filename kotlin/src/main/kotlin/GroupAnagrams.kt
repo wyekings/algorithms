@@ -14,5 +14,4 @@ class GroupAnagrams {
         }
         return map.values.toList()
     }
-
 }
