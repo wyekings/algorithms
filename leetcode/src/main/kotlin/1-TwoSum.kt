@@ -2,16 +2,8 @@ package com.wye
 
 class TwoSum {
 
-    companion object {
-        @JvmStatic
-        fun main(args: Array<String>) {
-            println("------------>")
-        }
-    }
+    fun twoSum(nums: IntArray, target: Int): IntArray {
 
-    class Solution {
-        fun twoSum(nums: IntArray, target: Int): IntArray {
-            return nums
-        }
+        return nums
     }
 }
